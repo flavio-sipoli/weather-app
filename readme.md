@@ -9,3 +9,7 @@ Foi consumido a API [OpenWeatherMap](https://openweathermap.org/) atrav√©s do m√
 - CSS3
 - Bootstrap
 - JavaScript
+
+## ACESSE O PROJETO
+
+[WEATHER-APP](https://flavio-sipoli.github.io/weather-app/)
