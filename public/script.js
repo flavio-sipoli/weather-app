@@ -5,6 +5,23 @@ const api = {
     units: "metric"
 }
 
+function saudacao() {
+
+    let msg = document.getElementById('saudacao')
+    let data = new Date()
+    let hora = data.getHours()
+    if (hora >= 6 && hora < 12) {
+        msg.innerHTML = "Ola, Bom dia"
+    }
+    else if (hora >= 12 && hora < 18) {
+        msg.innerHTML = "Ola, Boa tarde"
+    }
+    else {
+        msg.innerHTML = "Ola, Boa noite"
+
+    }
+}
+
 const city = document.querySelector('.city')
 const date = document.querySelector('.date');
 const container_img = document.querySelector('.container-img');

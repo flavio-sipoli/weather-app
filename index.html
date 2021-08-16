@@ -12,7 +12,7 @@
     <title>Weather-app</title>
 </head>
 
-<body>
+<body onload="saudacao()">
     <div class="container-fluid p-0 container-sm d-flex justify-content-center">
 
         <div class="card text-center shadow-lg bg-dark bg-gradient text-white" style="width: 26rem;">
@@ -20,6 +20,11 @@
             <div class="card-header bg-secondary bg-gradient text-white font-weight-bold">
                 TEMPO E TEMPERATURA
             </div>
+            <div>
+                <div id="saudacao">
+                </div>
+            </div>
+
 
             <div class="card-body">
                 <div class="city">Cidade, BR</div>
@@ -47,14 +52,11 @@
                 </div>
             </div>
             <div>
-                <div></div>
-                <div></div>
             </div>
         </div>
-    </div>
 
-    <script src="public/script.js"></script>
-    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+        <script src="public/script.js"></script>
+        <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
