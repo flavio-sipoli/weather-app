@@ -1,10 +1,3 @@
-const api = {
-    key: "64ed82577ced7f69cb1687f0ce536131",
-    base: "https://api.openweathermap.org/data/2.5/",
-    lang: "pt_br",
-    units: "metric"
-}
-
 function saudacao() {
 
     let msg = document.getElementById('saudacao')
@@ -20,6 +13,13 @@ function saudacao() {
         msg.innerHTML = "Ola, Boa noite"
 
     }
+}
+
+const api = {
+    key: "64ed82577ced7f69cb1687f0ce536131",
+    base: "https://api.openweathermap.org/data/2.5/",
+    lang: "pt_br",
+    units: "metric"
 }
 
 const city = document.querySelector('.city')
