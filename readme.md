@@ -12,7 +12,7 @@ Foi consumido a API [OpenWeatherMap](https://openweathermap.org/) através da [F
 
 ## ACESSE O PROJETO
 
-[WEATHER-APP](https://flavio-sipoli.github.io/weather-app/)
+Clicando neste link: [WEATHER-APP](https://flavio-sipoli.github.io/weather-app/)
 
 ## SCREENSHOT
 
